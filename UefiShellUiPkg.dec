@@ -1,5 +1,0 @@
-[Defines]
-  DEC_SPECIFICATION              = 0x00010005
-  PACKAGE_NAME                   = UefiShellUiPkg
-  PACKAGE_GUID                   = 50c4b76a-40f7-4f31-929e-167fdaacb397
-  PACKAGE_VERSION                = 0.1
