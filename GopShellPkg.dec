@@ -1,0 +1,5 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = GopPkg
+  PACKAGE_GUID                   = 4855a24b-2cfe-466f-895b-7530cb661d88
+  PACKAGE_VERSION                = 0.1

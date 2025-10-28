@@ -1,0 +1,35 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = GopPkg
+  FILE_GUID                      = 2138614c-8fa8-47b9-bb0d-d1e2239167f0
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.1
+  ENTRY_POINT                    = UiMainEntryPoint
+
+[Sources]
+  UiMain.c
+  DecryptFile.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+  GopPkg/GopPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  ShellLib
+  ShellCEntryLib
+  DevicePathLib
+  UefiRuntimeServicesTableLib
+  MemoryAllocationLib
+  UefiBootServicesTableLib
+  BaseMemoryLib
+  BaseLib
+  DebugLib
+  PrintLib
+  PcdLib
+  DebugPrintErrorLevelLib
+
+[Protocols]
+  gEfiShellParametersProtocolGuid
